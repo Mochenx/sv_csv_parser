@@ -1,0 +1,5 @@
+
+WORK > DEFAULT
+DEFAULT : ./compiled_libs/work
+UVM: ./compiled_libs/uvm
+TB: ./compiled_libs/tb

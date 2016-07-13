@@ -1,0 +1,20 @@
+
++incdir+../../uvm_src+../../uvm_src/macros
++incdir+../lib/
++incdir+../../
++incdir+../unit_test/ 
+-timescale=1ns/1ns
+
++define+CODE_COVERAGE_MODE
+
+// Unit test framework
+../unit_test/unit_test.sv 
+
+// General Toolkits
+../../csv_parser.svh
+
+// Unit test cases
+../cases/ut_basic_unquoted.sv
+../cases/ut_basic_quoted.sv
+../cases/ut_title_reader.sv
+../cases/run_all_test.sv
